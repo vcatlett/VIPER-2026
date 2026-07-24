@@ -1,0 +1,16 @@
+[project]
+name = "viper-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "corner>=2.3.0",
+    "enterprise-pulsar>=3.5.0",
+    "holodeck>=0.3.1",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "pint>=0.25.3",
+    "pint-pulsar>=1.1.5",
+    "ptmcmcsampler>=2.1.4",
+]
