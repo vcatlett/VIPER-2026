@@ -1,0 +1,42 @@
+[project]
+name = "viper-2026"
+version = "0.1.0"
+description = "ML project group for VIPER 2026"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    # so Enterprise builds
+    "scikit-sparse>=0.4.16",
+    # NANOGrav repos
+    "enterprise-pulsar",
+    "enterprise-extensions",
+    "discovery@git+https://github.com/nanograv/discovery.git",
+    "pint-pulsar",
+    "ptmcmcsampler",
+    # Other repos
+    "tqdm",
+    "numpy",
+    "matplotlib",
+    "zuko",
+]
+
+[tool.uv.sources]
+discovery = { git = "https://github.com/nanograv/discovery" }
+
+# Force CPU-only PyTorch. On Linux/Windows the default PyPI torch wheel bundles
+# multi-GB CUDA libraries; pulling from PyTorch's CPU index avoids that. macOS
+# wheels aren't published on the CPU index (and are already CPU/MPS-only on
+# PyPI), so Darwin keeps using the default index.
+torch = [{ index = "pytorch-cpu", marker = "platform_system != 'Darwin'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.hatch.build.targets.wheel]
+packages = []
+
+# [tool.uv]
+# package = false
