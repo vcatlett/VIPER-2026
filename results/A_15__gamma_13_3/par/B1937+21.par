@@ -1,11 +1,11 @@
-# Created: 2026-07-24T09:05:38.682613
+# Created: 2026-07-24T15:16:13.568775
 # PINT_version: 1.1.5
 # User: catlettv
 # Host: submit1
 # OS: Linux-4.18.0-553.120.1.el8_10.x86_64-x86_64-with-glibc2.28
 # Python: 3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]
 # Format: pint
-# read_time: 2026-07-24T08:48:13.936784
+# read_time: 2026-07-24T13:08:48.009074
 # allow_tcb: False
 # convert_tcb: False
 # allow_T2: False
@@ -839,16 +839,6 @@ TZRFRQ                           1742.942
 JUMP            -fe Rcvr_800   -1.5167969185324312e-05 1 5.1195335851444845e-08
 JUMP            -fe L-wide   -2.5840508402332355e-06 1 1.8241549371928042e-08
 JUMP            -fe Rcvr1_2   -1.2238205968115551e-05 1 1.8088062132206996e-08
-RNAMP                 0.07576425246886215
-RNIDX                   -4.18136276507297
-ECORR           -f L-wide_ASP       0.10329806169969821
-ECORR           -f L-wide_PUPPI       0.11662967020032211
-ECORR           -f Rcvr1_2_GASP       0.11173646233568979
-ECORR           -f Rcvr1_2_GUPPI       0.10610476468064257
-ECORR           -f Rcvr_800_GASP      0.004192189167312107
-ECORR           -f Rcvr_800_GUPPI       0.44932046146260907
-ECORR           -f S-wide_ASP        0.2752684759914485
-ECORR           -f S-wide_PUPPI       0.10025509889888116
 EFAC            -f L-wide_ASP        2.5842365838958523
 EQUAD           -f L-wide_ASP      0.057509709535471853
 EFAC            -f L-wide_PUPPI        1.5885536155488553
@@ -865,3 +855,13 @@ EQUAD           -f Rcvr_800_GASP       0.07909930219722942
 EQUAD           -f Rcvr_800_GUPPI        0.0636496986184171
 EQUAD           -f S-wide_ASP       0.09447468020867167
 EQUAD           -f S-wide_PUPPI        0.0675635414687781
+ECORR           -f L-wide_ASP       0.10329806169969821
+ECORR           -f L-wide_PUPPI       0.11662967020032211
+ECORR           -f Rcvr1_2_GASP       0.11173646233568979
+ECORR           -f Rcvr1_2_GUPPI       0.10610476468064257
+ECORR           -f Rcvr_800_GASP      0.004192189167312107
+ECORR           -f Rcvr_800_GUPPI       0.44932046146260907
+ECORR           -f S-wide_ASP        0.2752684759914485
+ECORR           -f S-wide_PUPPI       0.10025509889888116
+RNAMP                 0.07576425246886215
+RNIDX                   -4.18136276507297

@@ -1,11 +1,11 @@
-# Created: 2026-07-24T11:26:08.962416
+# Created: 2026-07-24T14:02:35.221764
 # PINT_version: 1.1.5
 # User: catlettv
 # Host: submit1
 # OS: Linux-4.18.0-553.120.1.el8_10.x86_64-x86_64-with-glibc2.28
 # Python: 3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]
 # Format: pint
-# read_time: 2026-07-24T09:19:56.562668
+# read_time: 2026-07-24T13:16:46.328036
 # allow_tcb: False
 # convert_tcb: False
 # allow_T2: False
@@ -455,10 +455,6 @@ TZRMJD             56520.6896704973742708
 TZRSITE                                GB
 TZRFRQ                            847.331
 JUMP            -fe Rcvr_800   -5.0328264840044416e-05 1 6.683600551808484e-07
-ECORR           -f Rcvr1_2_GASP      0.005731337044264545
-ECORR           -f Rcvr1_2_GUPPI       0.17467173023129112
-ECORR           -f Rcvr_800_GASP       0.08006702944149205
-ECORR           -f Rcvr_800_GUPPI      0.021774709328238908
 EFAC            -f Rcvr1_2_GASP        0.9252771440703359
 EQUAD           -f Rcvr1_2_GASP        0.4352779883912543
 EFAC            -f Rcvr1_2_GUPPI        1.0108989747396955
@@ -467,3 +463,7 @@ EFAC            -f Rcvr_800_GUPPI         1.000261727706719
 EQUAD           -f Rcvr1_2_GUPPI      0.018966102132931883
 EQUAD           -f Rcvr_800_GASP        0.5746740675451215
 EQUAD           -f Rcvr_800_GUPPI     0.0077684506445645654
+ECORR           -f Rcvr1_2_GASP      0.005731337044264545
+ECORR           -f Rcvr1_2_GUPPI       0.17467173023129112
+ECORR           -f Rcvr_800_GASP       0.08006702944149205
+ECORR           -f Rcvr_800_GUPPI      0.021774709328238908

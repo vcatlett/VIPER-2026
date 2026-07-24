@@ -1,11 +1,11 @@
-# Created: 2026-07-24T11:47:37.516180
+# Created: 2026-07-24T14:23:40.107207
 # PINT_version: 1.1.5
 # User: catlettv
 # Host: submit1
 # OS: Linux-4.18.0-553.120.1.el8_10.x86_64-x86_64-with-glibc2.28
 # Python: 3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]
 # Format: pint
-# read_time: 2026-07-24T09:24:53.943684
+# read_time: 2026-07-24T13:21:42.418720
 # allow_tcb: False
 # convert_tcb: False
 # allow_T2: False
@@ -1270,18 +1270,6 @@ JUMP            -fe L-wide    -2.535125679124771e-05 1 2.3648431176935964e-08
 JUMP            -fe S-wide    -1.821170111927378e-05 1 2.3409487303019755e-08
 JUMP            -fe Rcvr_800   -4.4228643686933796e-05 1 3.826791751525424e-08
 JUMP            -fe 1.5GHz   -1.6488232826234622e-05 1 3.196349542535049e-08
-ECORR           -f 1.5GHz_YUPPI       0.07255537276087591
-ECORR           -f 3GHz_YUPPI       0.11393130547589105
-ECORR           -f L-wide_ASP       0.09194601431856742
-ECORR           -f L-wide_PUPPI       0.07471673300679431
-ECORR           -f Rcvr1_2_GASP       0.18298752565162954
-ECORR           -f Rcvr1_2_GUPPI       0.08624492849948624
-ECORR           -f Rcvr_800_GASP      0.008503429345632706
-ECORR           -f Rcvr_800_GUPPI       0.14957124999237942
-ECORR           -f S-wide_ASP       0.11359802297597098
-ECORR           -f S-wide_PUPPI       0.07845488742415488
-RNAMP                0.031255108630895805
-RNIDX                  -2.245897512306314
 EFAC            -f 1.5GHz_YUPPI        1.0735553219357616
 EQUAD           -f 1.5GHz_YUPPI      0.003727810162065673
 EFAC            -f 3GHz_YUPPI        1.0430421889295587
@@ -1302,3 +1290,15 @@ EQUAD           -f Rcvr_800_GASP       0.18498988270802935
 EQUAD           -f Rcvr_800_GUPPI       0.07837190365765782
 EQUAD           -f S-wide_ASP       0.01940475436768167
 EQUAD           -f S-wide_PUPPI      0.006548017605493912
+ECORR           -f 1.5GHz_YUPPI       0.07255537276087591
+ECORR           -f 3GHz_YUPPI       0.11393130547589105
+ECORR           -f L-wide_ASP       0.09194601431856742
+ECORR           -f L-wide_PUPPI       0.07471673300679431
+ECORR           -f Rcvr1_2_GASP       0.18298752565162954
+ECORR           -f Rcvr1_2_GUPPI       0.08624492849948624
+ECORR           -f Rcvr_800_GASP      0.008503429345632706
+ECORR           -f Rcvr_800_GUPPI       0.14957124999237942
+ECORR           -f S-wide_ASP       0.11359802297597098
+ECORR           -f S-wide_PUPPI       0.07845488742415488
+RNAMP                0.031255108630895805
+RNIDX                  -2.245897512306314

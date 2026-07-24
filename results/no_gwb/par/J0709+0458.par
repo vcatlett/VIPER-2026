@@ -1,11 +1,11 @@
-# Created: 2026-07-24T11:18:35.767554
+# Created: 2026-07-24T13:55:10.587244
 # PINT_version: 1.1.5
 # User: catlettv
 # Host: submit1
 # OS: Linux-4.18.0-553.120.1.el8_10.x86_64-x86_64-with-glibc2.28
 # Python: 3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]
 # Format: pint
-# read_time: 2026-07-24T09:17:52.801857
+# read_time: 2026-07-24T13:14:40.566628
 # allow_tcb: False
 # convert_tcb: False
 # allow_T2: False
@@ -212,9 +212,9 @@ TZRMJD             56993.2922196218093751
 TZRSITE                                 3
 TZRFRQ                            326.988
 JUMP            -fe S-wide      9.64994607332474e-05 1 1.3965426685163338e-06
-ECORR           -f L-wide_PUPPI      0.008545366661953954
-ECORR           -f S-wide_PUPPI        2.3168755105748775
 EFAC            -f L-wide_PUPPI        1.0718688409699688
 EQUAD           -f L-wide_PUPPI       0.10180335563570013
 EFAC            -f S-wide_PUPPI        0.9713071990586236
 EQUAD           -f S-wide_PUPPI      0.005901226840466496
+ECORR           -f L-wide_PUPPI      0.008545366661953954
+ECORR           -f S-wide_PUPPI        2.3168755105748775
