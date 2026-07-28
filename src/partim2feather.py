@@ -27,11 +27,13 @@ psr_names = pd.read_csv(PSR_NAMES)
 # psrs = load_from_directories(PAR_DIR, TIM_DIR, num_psrs=N_PSR)
 
 print("Saving to feather files...")
-for p in tqdm(psr_names["psr_name"]):
+for pi, p in tqdm(enumerate(psr_names["psr_name"])):
     if p == "J1909-3744":
         pass
+    elif pi <= 53:
+        pass
     else:
-        # print(p)
+        print(pi)
         parfile = glob(f"{PAR_DIR}/{p}*.par")[0]
         timfile = glob(f"{TIM_DIR}/{p}*.tim")[0]
         psr = load_pulsar(parfile, timfile)
